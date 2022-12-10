@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.left-section div {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 810;
+}
+
+.right-section {
+  position: relative;
+  right: 121px;
+  top: 21px;
+}
+
+.right-section div {
+  display: inline-block;
+}
+
+.navbar-hello li a {
+  text-decoration: none;
+  padding: 12px;
+  color: black;
+  font-weight: 505;
+}
+
+.navbar li a:hover {
+  color: aquamarine;
+}
+.mid-section {
+  margin-top: 12px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.sidebar-section ul li {
+  list-style: none;
+  line-height: 41px;
+}
+
+.sidebar-section navbar {
+  position: relative;
+  left: 44px;
+  font-weight: 800;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-section {
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 21px;
+  height: 101x;
+}
+
+.alert {
+  position: relative;
+  top: 50px;
+  width: 18%;
+}
+
+.alert button {
+  background-color: rgb(39, 39, 231);
+  color: white;
+  padding: 5px;
+}
+
+.sidebar-section {
+  position: relative;
+  top: 70px;
+}
+
+.right-section i {
+  padding-left: 20px;
+  border: 2px solid rgb(196, 192, 192);
+  background-color: rgb(196, 192, 192);
+  padding: 10px;
+}
+
+.right-section i:hover {
+  background-color: orange;
+}
+
+.left-section {
+  position: relative;
+  left: 100px;
+  top: 25px;
+}
+
+.sidebar-section div {
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  background-color: aqua;
+  color: white;
+}
